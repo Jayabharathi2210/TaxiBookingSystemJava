@@ -8,7 +8,7 @@ public class Taxi{
     
     List<Booking> bookings = new ArrayList<>();
 
-    public Taxi(){
+    public Taxi(int id){
         this.id = id;
     }
 
